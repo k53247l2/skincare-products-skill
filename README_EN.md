@@ -208,6 +208,11 @@ Download the portable archive for offline installation:
 
 For AI agents (Hermes, Claude Code, Cursor, etc.) to download and install in one command:
 
+**Cross-agent via npx (recommended for agents):**
+```bash
+npx skills add mochenxin2025-png/skincare-products-skill --skill skincare-products-skill
+```
+
 **Hermes Agent:**
 ```bash
 hermes skills install https://raw.githubusercontent.com/mochenxin2025-png/skincare-products-skill/master/SKILL.md

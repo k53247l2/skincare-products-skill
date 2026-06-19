@@ -208,6 +208,11 @@ hermes skills list | grep skincare
 
 让 AI 智能体（Hermes、Claude Code、Cursor 等）一行命令下载安装：
 
+**跨 agent 通用（推荐）：**
+```bash
+npx skills add mochenxin2025-png/skincare-products-skill --skill skincare-products-skill
+```
+
 **Hermes Agent：**
 ```bash
 hermes skills install https://raw.githubusercontent.com/mochenxin2025-png/skincare-products-skill/master/SKILL.md
