@@ -204,6 +204,28 @@ Download the portable archive for offline installation:
 
 ---
 
+### 🤖 Agent-Friendly Install (One-Liner)
+
+For AI agents (Hermes, Claude Code, Cursor, etc.) to download and install in one command:
+
+**Hermes Agent:**
+```bash
+hermes skills install https://raw.githubusercontent.com/mochenxin2025-png/skincare-products-skill/master/SKILL.md
+```
+
+**Any agent via curl:**
+```bash
+# Download & extract in one shot
+curl -sL https://github.com/mochenxin2025-png/skincare-products-skill/archive/refs/heads/master.zip | tar -xf - && mv skincare-products-skill-master skincare-products-skill
+```
+
+**Or via wget:**
+```bash
+wget -qO- https://github.com/mochenxin2025-png/skincare-products-skill/archive/refs/heads/master.zip | tar -xf - && mv skincare-products-skill-master skincare-products-skill
+```
+
+---
+
 ## 🚀 Usage
 
 ### As a Reasonix Code / Claude Code Skill

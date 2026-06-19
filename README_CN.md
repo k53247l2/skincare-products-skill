@@ -204,6 +204,28 @@ hermes skills list | grep skincare
 
 ---
 
+### 🤖 Agent 一键安装
+
+让 AI 智能体（Hermes、Claude Code、Cursor 等）一行命令下载安装：
+
+**Hermes Agent：**
+```bash
+hermes skills install https://raw.githubusercontent.com/mochenxin2025-png/skincare-products-skill/master/SKILL.md
+```
+
+**任意 agent 通过 curl：**
+```bash
+# 一行命令下载并解压
+curl -sL https://github.com/mochenxin2025-png/skincare-products-skill/archive/refs/heads/master.zip | tar -xf - && mv skincare-products-skill-master skincare-products-skill
+```
+
+**或通过 wget：**
+```bash
+wget -qO- https://github.com/mochenxin2025-png/skincare-products-skill/archive/refs/heads/master.zip | tar -xf - && mv skincare-products-skill-master skincare-products-skill
+```
+
+---
+
 ## 🚀 使用方法
 
 ### 作为 Reasonix Code / Claude Code 技能
