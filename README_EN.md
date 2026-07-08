@@ -2,7 +2,7 @@
 
 > A dermatology-oriented AI agent framework for cosmetic formulation analysis. Evaluates skincare, body care, and hair care products by mechanism, formula logic, and scientific evidence — never by brand, marketing, or price.
 
-[![Version](https://img.shields.io/badge/version-2.1-blue)](https://github.com)
+[![Version](https://img.shields.io/badge/version-2.2-blue)](https://github.com)
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com)
 [![Platforms](https://img.shields.io/badge/platforms-8-orange)](https://github.com)
 [![Categories](https://img.shields.io/badge/product%20categories-10-purple)](https://github.com)
@@ -21,6 +21,7 @@ This is a **structured agent skill** that transforms any AI assistant into a der
 - **30 documented ingredient interactions** — synergy, antagonism, and conflict rules
 - **Harmonic-mean confidence scoring** — five-factor uncertainty propagation
 - **Per-category weight profiles** — 10 product types with optimized scoring dimensions
+- **Citation Mode** — for medical/safety questions: claim extraction, evidence routing (guidelines/PubMed/regulatory), structured evidence cards, and 5-section answers with clickable source links
 
 The framework contains **631 structured data entries** across ingredient databases, interaction rules, and scientific references.
 
@@ -115,13 +116,33 @@ Plus **12 skin type/condition assessments**: Normal, Dry, Oily, Combination, Sen
 
 ## 🧠 How It Works
 
+### Dual-Mode Architecture
+
+The skill operates in two modes, automatically selected based on user input:
+
 ```
-Input (text/OCR) → Validation → Ontology Mapping → Database Query
-→ Interaction Analysis → Mechanism Analysis → Architecture Analysis
-→ Risk Analysis → Skin Adaptation → Confidence → Scoring → Output
+                    User Question
+                         │
+           ┌─────────────┴─────────────┐
+           ▼                           ▼
+   Citation Mode ON              Citation Mode OFF
+   (efficacy/safety/             (product analysis)
+    disease questions)
+           │                           │
+           ▼                           ▼
+   Problem Classification       Input → Validation
+   → Claim Extraction           → Ontology Mapping
+   → Evidence Routing           → Database Query
+   → Evidence Ranking           → Interaction Analysis
+   → Evidence Card              → Mechanism Analysis
+   → 5-Section Output           → Architecture Analysis
+   (with clickable links)       → Risk Analysis
+                                → Skin Adaptation
+                                → Confidence → Scoring
+                                → 14-Section Report
 ```
 
-### Scoring Formula
+### Scoring Formula (Product Analysis Mode)
 
 ```
 Final_Score = Σ(PS × EM × IM × Weight) − Marketing_Penalty
@@ -247,6 +268,7 @@ Place the rule content in `.cursorrules` or `.cursor/rules/skincare.md`.
 
 ### Trigger Examples
 
+**Product Analysis:**
 ```
 "Analyze this ingredient list: Aqua, Niacinamide, Butylene Glycol..."
 "Is this sunscreen good?" [attach product photo]
@@ -254,6 +276,14 @@ Place the rule content in `.cursorrules` or `.cursor/rules/skincare.md`.
 "Evaluate this anti-dandruff shampoo"
 "Review this lip balm — it has menthol in it"
 ```
+
+**Citation Mode (Medical/Safety Questions):**
+```
+"Does azelaic acid help with post-acne marks?"
+"Is salicylic acid safe during pregnancy?"
+"Can I use niacinamide if I have rosacea?"
+"Is it true that skin absorbs best at 10pm?"
+"Will this ingredient cause acne?"
 
 ---
 
@@ -270,9 +300,21 @@ The framework includes explicit anti-hallucination rules to prevent common AI fa
 - Database missing → "Insufficient Evidence" — never fabricate
 - No interaction rule found → Independent (IM 1.00) — never invent interactions
 
+### Citation Discipline (v2.2)
+
+In Citation Mode, five non-negotiable rules govern evidence presentation:
+
+- **No false correspondence** — never cite an ingredient study as proof a specific product is clinically validated
+- **No low-level evidence as clinical proof** — in vitro ≠ human efficacy; mechanistic citations must carry explicit caveats
+- **Three-class separation** — every answer separates literature-supported, formulation-inferred, and uncertain conclusions
+- **Safety → safety sources** — pregnancy, long-term use, comedogenicity always route to SCCS/CIR/FDA/NMPA, not just efficacy literature
+- **No evidence = say so** — "No direct clinical evidence" is always better than a hallucinated citation
+
 ---
 
 ## 📝 Example Output
+
+### Product Analysis Mode
 
 ```markdown
 ## ⑬ Overall Score: 54 / 100 (🟢 High Confidence)
@@ -290,6 +332,33 @@ The framework includes explicit anti-hallucination rules to prevent common AI fa
 **Strengths**: Well-recognized active (Niacinamide 10%) with strong clinical evidence.
 **Limitations**: Simple architecture; no antioxidant support system.
 **Recommendation**: Recommended for normal to oily skin seeking hyperpigmentation reduction.
+```
+
+### Citation Mode
+
+```markdown
+━━━ ① Summary / Core Answer ━━━
+This product is likely suitable for oily acne-prone skin as a maintenance serum.
+Primary active is azelaic acid with niacinamide as support. Low irritation risk
+but not a "strong" acne treatment — better for PIH management.
+
+━━━ ③ Evidence-Supported Claims ━━━
+- Azelaic acid has clear evidence for mild-to-moderate acne and post-inflammatory
+  hyperpigmentation, serving as a long-term management active [C1][C2]
+- Niacinamide is an adjunct for sebum regulation and inflammation reduction —
+  not a standalone "strong" acne treatment [C3]
+
+━━━ ④ Inference & Uncertainty ━━━
+- Actual azelaic acid concentration unknown from ingredient list alone
+- Whether this product is "suitable for you" is formulation inference,
+  not product-level clinical validation
+
+━━━ ⑤ References / Sources ━━━
+[C1] Azelaic acid in acne/PIH review (2023, review)
+Source: PubMed  |  Link: https://pubmed.ncbi.nlm.nih.gov/xxxxxxxx/
+
+[C2] AAD Guideline for Acne Management (2024, guideline)
+Source: JAAD  |  Link: https://www.jaad.org/...
 ```
 
 ---
