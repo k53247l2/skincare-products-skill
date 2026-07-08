@@ -165,11 +165,29 @@ This database defines known cosmetic ingredient interactions for M16 (Interactio
 | **IM** | 1.00 |
 | **Reference** | Formulation textbooks |
 
+### Rule 16: Azelaic Acid + Niacinamide
+| Field | Value |
+| --- | --- |
+| **Type** | Independent (complementary) |
+| **Evidence** | B |
+| **Mechanism** | Azelaic acid covers antibacterial + keratolytic + anti-inflammatory pathways; niacinamide adds sebum regulation + barrier repair. Different molecular targets, no chemical conflict. Both also address PIH (azelaic acid via tyrosinase inhibition, niacinamide via melanosome transfer inhibition). Clinically used together in acne regimens. |
+| **IM** | 1.00 |
+| **Reference** | Clinical dermatology practice; Graupe et al., J Dermatol Treat (1996); Draelos et al., J Drugs Dermatol (2021) |
+
+### Rule 17: Zinc (Lactate/PCA/Gluconate) + Niacinamide
+| Field | Value |
+| --- | --- |
+| **Type** | Synergy |
+| **Evidence** | B |
+| **Mechanism** | Both reduce sebum production via complementary pathways — niacinamide via NAD+-dependent mechanisms, zinc ions via 5α-reductase inhibition. Combined use shows additive sebum reduction with no irritation increase. |
+| **IM** | 1.05 (Core Effectiveness dimension) |
+| **Reference** | Dreno et al., J Eur Acad Dermatol Venereol (2001); Brandt et al., J Drugs Dermatol (2011) |
+
 ---
 
 ## 5. Peptide Interactions
 
-### Rule 16: Copper Tripeptide-1 + Ascorbic Acid
+### Rule 18: Copper Tripeptide-1 + Ascorbic Acid
 | Field | Value |
 | --- | --- |
 | **Type** | Conflict |
@@ -179,7 +197,7 @@ This database defines known cosmetic ingredient interactions for M16 (Interactio
 | **Recommendation** | Separate application times (AM/PM split recommended). |
 | **Reference** | In vitro compatibility studies |
 
-### Rule 17: Matrixyl Peptides + Retinol
+### Rule 19: Matrixyl Peptides + Retinol
 | Field | Value |
 | --- | --- |
 | **Type** | Synergy |
@@ -188,7 +206,7 @@ This database defines known cosmetic ingredient interactions for M16 (Interactio
 | **IM** | 1.10 |
 | **Reference** | Robinson et al., Int J Cosmet Sci (2005); Robinson et al., J Cosmet Dermatol (2008) |
 
-### Rule 18: Acetyl Hexapeptide-8 (Argireline) + Any Strong Acid
+### Rule 20: Acetyl Hexapeptide-8 (Argireline) + Any Strong Acid
 | Field | Value |
 | --- | --- |
 | **Type** | Antagonism |
@@ -202,7 +220,7 @@ This database defines known cosmetic ingredient interactions for M16 (Interactio
 
 ## 6. pH-Dependent Interactions
 
-### Rule 19: Ascorbic Acid (L-AA) Requires pH < 3.5
+### Rule 21: Ascorbic Acid (L-AA) Requires pH < 3.5
 | Field | Value |
 | --- | --- |
 | **Type** | Formulation Constraint |
@@ -211,7 +229,7 @@ This database defines known cosmetic ingredient interactions for M16 (Interactio
 | **IM** | If pH > 4.5 with L-AA → reduce Core Effectiveness PS for Vitamin C by 0.50. |
 | **Reference** | Pinnell et al., Dermatol Surg (2001) |
 
-### Rule 20: Sodium Ascorbyl Phosphate Requires pH ~7
+### Rule 22: Sodium Ascorbyl Phosphate Requires pH ~7
 | Field | Value |
 | --- | --- |
 | **Type** | Formulation Constraint |
@@ -220,7 +238,7 @@ This database defines known cosmetic ingredient interactions for M16 (Interactio
 | **IM** | If pH < 4.5 with SAP as main Vit C → flag formulation mismatch. Do not penalize PS. |
 | **Reference** | Stabilized Vitamin C derivative literature |
 
-### Rule 21: Potassium Sorbate + Low-pH Formula + Ascorbic Acid
+### Rule 23: Potassium Sorbate + Low-pH Formula + Ascorbic Acid
 | Field | Value |
 | --- | --- |
 | **Type** | Conflict |
@@ -234,7 +252,7 @@ This database defines known cosmetic ingredient interactions for M16 (Interactio
 
 ## 7. Preservative & Stability Interactions
 
-### Rule 22: Phenoxyethanol + Ethylhexylglycerin
+### Rule 24: Phenoxyethanol + Ethylhexylglycerin
 | Field | Value |
 | --- | --- |
 | **Type** | Synergy |
@@ -243,7 +261,7 @@ This database defines known cosmetic ingredient interactions for M16 (Interactio
 | **IM** | Not scored (preservative system evaluation; not efficacy). Affects Architecture +0.05 if present. |
 | **Reference** | Euxyl PE 9010 literature |
 
-### Rule 23: EDTA + Phenoxyethanol
+### Rule 25: EDTA + Phenoxyethanol
 | Field | Value |
 | --- | --- |
 | **Type** | Synergy |
@@ -252,7 +270,7 @@ This database defines known cosmetic ingredient interactions for M16 (Interactio
 | **IM** | Not scored. Affects Architecture +0.03 if both present. |
 | **Reference** | Preservative formulation textbooks |
 
-### Rule 24: Multiple Formaldehyde Releasers
+### Rule 26: Multiple Formaldehyde Releasers
 | Field | Value |
 | --- | --- |
 | **Type** | Conflict (cumulative risk) |
@@ -265,7 +283,7 @@ This database defines known cosmetic ingredient interactions for M16 (Interactio
 
 ## 8. Surfactant & Cleanser Interactions
 
-### Rule 25: SLS + SLES Combination
+### Rule 27: SLS + SLES Combination
 | Field | Value |
 | --- | --- |
 | **Type** | Synergy (mildness improvement) |
@@ -274,7 +292,7 @@ This database defines known cosmetic ingredient interactions for M16 (Interactio
 | **IM** | 1.05 (Safety dimension — reduced irritation vs. SLS alone) |
 | **Reference** | Ananthapadmanabhan et al., J Soc Cosmet Chem (1998) |
 
-### Rule 26: Anionic + Amphoteric Surfactant
+### Rule 28: Anionic + Amphoteric Surfactant
 | Field | Value |
 | --- | --- |
 | **Type** | Synergy |
@@ -283,7 +301,7 @@ This database defines known cosmetic ingredient interactions for M16 (Interactio
 | **IM** | 1.10 (Safety dimension) |
 | **Reference** | Rhein et al., Surfactants in Cosmetics (1997) |
 
-### Rule 27: Anionic + Nonionic Surfactant
+### Rule 29: Anionic + Nonionic Surfactant
 | Field | Value |
 | --- | --- |
 | **Type** | Synergy (mildness) |
@@ -298,7 +316,7 @@ This database defines known cosmetic ingredient interactions for M16 (Interactio
 
 (Cross-reference with bootstrap-database.md §1 — Key Interactions table)
 
-### Rule 28: Avobenzone + Octocrylene
+### Rule 30: Avobenzone + Octocrylene
 | Field | Value |
 | --- | --- |
 | **Type** | Synergy (photostabilization) |
@@ -306,7 +324,7 @@ This database defines known cosmetic ingredient interactions for M16 (Interactio
 | **Mechanism** | Octocrylene acts as a triplet-state quencher for avobenzone, preventing its photodegradation. Avobenzone alone photodegrades ~50% in 1 hour of sunlight; with octocrylene, degradation is < 5%. |
 | **IM** | 1.10 (UV Protection dimension) |
 
-### Rule 29: Avobenzone + Octinoxate
+### Rule 31: Avobenzone + Octinoxate
 | Field | Value |
 | --- | --- |
 | **Type** | Conflict |
@@ -315,7 +333,7 @@ This database defines known cosmetic ingredient interactions for M16 (Interactio
 | **IM** | 0.70 (UV Protection dimension) |
 | **Recommendation** | Never formulate together without a stabilizing system (e.g., Tinosorb S encapsulation). Best practice: avoid combination entirely. |
 
-### Rule 30: Avobenzone + Tinosorb S
+### Rule 32: Avobenzone + Tinosorb S
 | Field | Value |
 | --- | --- |
 | **Type** | Synergy (stabilization + broadening) |
@@ -333,7 +351,8 @@ This database defines known cosmetic ingredient interactions for M16 (Interactio
 Antioxidant          C+E, C+Ferulic, CEF triple  —
 Retinoid             Retinol+Niacinamide         Retinol+AHA, Retinol+BP
 Acid                 AHA+BHA, AHA+PHA            Salicylic+Niacinamide (low pH)
-Niacinamide          +NAG, +Tranexamic Acid      —
+Niacinamide          +NAG, +Tranexamic Acid,     —
+                     +Zinc Lactate/PCA
 Peptide              Matrixyl+Retinol            Cu-Peptide+Ascorbic Acid
                                                    Argireline+strong acid
 Sunscreen            Avo+Octocrylene             Avo+Octinoxate

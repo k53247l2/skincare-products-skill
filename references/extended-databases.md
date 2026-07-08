@@ -29,6 +29,7 @@ Emollients fill intercorneocyte gaps, smooth skin surface, and reduce TEWL via o
 | 14 | Shea Butter | Butyrospermum Parkii Butter | Stearic + oleic triglycerides; unsaponifiables | Heavy, waxy | 0–2 | 1–25% | Dry, barrier-damaged |
 | 15 | Cocoa Butter | Theobroma Cacao Seed Butter | High stearic + palmitic; solid | Very heavy, waxy | 3–4 | 1–15% | Very dry body; occlusive |
 | 16 | Mango Butter | Mangifera Indica Seed Butter | Stearic + oleic | Medium-heavy | 1–2 | 1–15% | Dry; lighter than shea |
+| 17 | Limnanthes Alba Seed Oil | White Meadowfoam Seed Oil / 白池花籽油 | Long-chain fatty acids (C20–C22); high oxidative stability | Medium-light | 0–1 | 1–15% | All; excellent oxidative stability; non-comedogenic |
 
 ### 6.2 Synthetic & Semi-Synthetic Emollients
 
@@ -229,6 +230,20 @@ Covers common botanical extracts. Most default to [B] Botanical ontology. Reclas
 | 23 | Jasminum Officinale Extract | Jasmine | Fragrance; no functional skin evidence |
 | 24 | Hibiscus Sabdariffa Flower Extract | Hibiscus | "Natural Botox" claim — no clinical evidence |
 | 25 | Panax Ginseng Root Extract | Ginseng | Oral benefits well-studied; topical evidence extremely limited |
+| 26 | Hypericum Perforatum Extract | St. John's Wort / 贯叶连翘 | ⚠️ [R] Phototoxic — contains hypericin. Must not appear in leave-on products without explicit sun avoidance labeling. Reclassify to [R] regardless of position. |
+| 27 | Momordica Charantia Fruit Extract | Bitter Melon / 苦瓜 | E | No topical evidence. Traditional anti-inflammatory uses not verified in cosmetic formulations. |
+| 28 | Sambucus Nigra Flower Extract | Elderflower / 接骨木花 | E | No topical cosmetic evidence. Traditional folk remedy only. |
+| 29 | Leontopodium Alpinum Extract | Edelweiss / 雪绒花 | E | Marketing antioxidant claim. No clinical data for cosmetic concentrations. |
+| 30 | Ficus Carica Fruit Extract | Fig / 无花果 | E | No topical clinical evidence. May contain ficin protease — potential irritant on damaged skin. |
+| 31 | Punica Granatum Pericarp Extract | Pomegranate Peel / 石榴果皮 | C | Ellagic acid content suggests antioxidant potential. Limited cosmetic-specific data. Often used as SeboPlex component. |
+| 32 | Backhousia Citriodora Leaf Extract | Lemon Myrtle / 柠檬巴毫 | E | Australian native plant. Citral content → potential allergen when oxidized. No cosmetic evidence. |
+| 33 | Schisandra Sphenanthera Extract | 南五味子 | E | Traditional Chinese medicine; topical evidence absent. |
+| 34 | Theobroma Cacao Extract | Cocoa / 可可 | E | Rich in polyphenols in food; topical cosmetic data extremely limited. |
+| 35 | Taraxacum Officinale Root Extract | Dandelion Root / 欧蒲公英 | E | Traditional use not verified in cosmetic formulations. |
+| 36 | Viola Yedoensis Extract | 紫花地丁 | E | Traditional Chinese medicine; no topical cosmetic evidence. |
+| 37 | Malva Sylvestris Flower Extract | Mallow / 欧锦葵 | E | Traditional emollient; no modern clinical cosmetic data. |
+| 38 | Lonicera Japonica Flower Extract | Honeysuckle / 忍冬 | E | Traditional anti-inflammatory; no clinical cosmetic evidence. May contain chlorogenic acid (weak antioxidant). |
+| 39 | Coix Lacryma-Jobi Ma-Yuen Seed Oil | Job's Tears Oil / 川谷籽油 | C | Used in TCM and some Asian cosmetics. Contains coixenolide. Limited topical data. |
 
 ### 9.5 Botanical Assessment Rules
 
@@ -263,9 +278,9 @@ Covers common botanical extracts. Most default to [B] Botanical ontology. Reclas
 | Surfactants | bootstrap-database.md §2 | 40 |
 | Preservatives | bootstrap-database.md §3 | 20 |
 | Humectants | bootstrap-database.md §4 | 20 |
-| Risk Ingredients | bootstrap-database.md §5 | 30 |
-| Emollients | extended-databases.md §6 | 25 |
+| Risk Ingredients | bootstrap-database.md §5 | 31 |
+| Emollients | extended-databases.md §6 | 26 |
 | Silicones | extended-databases.md §7 | 20 |
 | Polymers | extended-databases.md §8 | 15 |
-| Plant Extracts | extended-databases.md §9 | 25 |
-| **Total** | | **225** |
+| Plant Extracts | extended-databases.md §9 | 39 |
+| **Total** | | **251** |

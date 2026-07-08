@@ -96,6 +96,7 @@ Step 4: Split into individual ingredient names
 | **Color Index codes** | `CI 77891`, `CI 77491` | Validate against CI registry; flag if non-standard |
 | **Trade names** | `Tinosorb® S` | Normalize to INCI: `Bis-Ethylhexyloxyphenol Methoxyphenyl Triazine` |
 | **Numeric-only codes** | `Glycerin (and) Aqua (and) Sodium PCA` | Split `(and)` into separate ingredients |
+| **Chinese dual-section format** | `【主要成分】水、甘油... 【其他微量成分】透明质酸钠...` | Split into two tiers: main (>0.1%) and trace (≤0.1%). Preserve position numbering across sections (main first, then trace). Boost concentration certainty for main-tier ingredients (C factor +0.2 per ingredient). Flag: all trace-tier ingredients as concentration ≤0.1%. |
 
 ### 2.3 Position Tracking
 

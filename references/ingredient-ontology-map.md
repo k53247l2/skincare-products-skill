@@ -107,6 +107,14 @@ Ingredients directly responsible for the product's primary biological function.
 | Minoxidil | 米诺地尔 | Hair growth (Rx in some regions) | B |
 | Caffeine | 咖啡因 | Hair growth stimulation | B |
 | Biotin | 生物素 | Hair/nail health | B |
+| Zinc Lactate | 乳酸锌 | Sebum regulation, anti-inflammatory, antibacterial (zinc ion) | B |
+| Ergothioneine | 麦角硫因 | Potent antioxidant (physiological transporter OCTN1); anti-inflammatory | B |
+| Palmitoyl Tripeptide-5 | 棕榈酰三肽-5 | Collagen stimulation (matrikine signaling) | B |
+| Acetyl Hexapeptide-1 | 乙酰基六肽-1 | Anti-wrinkle (Botox-like peptide) | B |
+| Acetyl Tetrapeptide-9 | 乙酰基四肽-9 | ECM stimulation | B |
+| Acetyl Tetrapeptide-11 | 乙酰基四肽-11 | Anti-aging, firmness | B |
+| Hexapeptide-9 | 六肽-9 | Collagen stimulation | B |
+| Nonapeptide-1 | 九肽-1 | Melanin synthesis inhibition (brightening peptide) | B |
 
 ---
 
@@ -122,6 +130,7 @@ Ingredients that enable or enhance the primary function indirectly — humectant
 | Pentylene Glycol | 戊二醇 | Humectant, antimicrobial booster | B |
 | Propanediol | 丙二醇(天然来源) | Humectant, solvent | B |
 | Hexylene Glycol | 己二醇 | Humectant, antimicrobial booster | B |
+| 1,2-Hexanediol | 1,2-己二醇 | Humectant, antimicrobial booster (multifunctional preservative) | B |
 | Caprylyl Glycol | 辛甘醇 | Humectant, antimicrobial booster | B |
 | Ethylhexylglycerin | 乙基己基甘油 | Humectant, preservative booster | B |
 | Sorbitol | 山梨糖醇 | Humectant | B |
@@ -141,6 +150,18 @@ Ingredients that enable or enhance the primary function indirectly — humectant
 | BHA (Butylated Hydroxyanisole) | 丁羟茴香醚 | Antioxidant (product protection) | B |
 | Sodium Metabisulfite | 偏亚硫酸氢钠 | Antioxidant (product protection) | C |
 | Ascorbyl Palmitate | 抗坏血酸棕榈酸酯 | Antioxidant (product protection) | B |
+| Dipropylene Glycol | 双丙甘醇 | Humectant, solvent | B |
+| Isopentyldiol | 异戊二醇 | Humectant, antimicrobial booster | B |
+| Hydroxyacetophenone | 对羟基苯乙酮 | Antioxidant, preservative booster (multifunctional) | B |
+| Hydroxyethylpiperazine Ethane Sulfonic Acid (HEPES) | 羟乙基哌嗪乙烷磺酸 | pH buffer; mild exfoliant at ≥5% | B |
+| Cyclodextrin | 环糊精 | Encapsulation/stabilization of actives | B |
+| Potassium Lactate | 乳酸钾 | NMF component, humectant | B |
+| PEG/PPG-14/7 Dimethyl Ether | PEG/PPG-14/7 二甲基醚 | Humectant, solvent | C |
+| Maltodextrin | 麦芽糊精 | Binder, stabilizer | C |
+| Arginine | 精氨酸 | pH adjuster (carbomer neutralizer), amino acid | B |
+| Dextrin | 糊精 | Binder, stabilizer | C |
+| Glyceryl Glucoside | 甘油葡糖苷 | Humectant, cell protection | B |
+| Tromethamine | 氨丁三醇 | pH adjuster (Tris buffer) | B |
 
 ---
 
@@ -163,6 +184,7 @@ Ingredients that improve skin feel and appearance without being primary actives.
 | Madecassoside (conditioning) | 羟基积雪草苷 | Soothing (when not core active) | B |
 | Ectoin | 依克多因 | Cell protection, anti-stress | B |
 | Ceramide NP (conditioning) | 神经酰胺NP | Conditioning (when not core claim) | B |
+| Tremella Fuciformis Polysaccharide | 银耳多糖 | Humectant polysaccharide (high MW, superior water binding) | C |
 
 ---
 
@@ -300,6 +322,8 @@ Ingredients that modify product feel, spreadability, and sensory experience.
 | Sodium Stearoyl Glutamate | 硬脂酰谷氨酸钠 | Medium |
 | Potassium Cetyl Phosphate | 鲸蜡醇磷酸酯钾 | Medium |
 | Sodium Stearoyl Lactylate | 硬脂酰乳酰乳酸钠 | Medium |
+| PPG-26-Buteth-26 | PPG-26-丁醇聚醚-26 | High (solubilizer) |
+| PEG-40 Hydrogenated Castor Oil | PEG-40 氢化蓖麻油 | High (solubilizer for fragrance) |
 
 ---
 
@@ -317,6 +341,9 @@ Ingredients that modify product feel, spreadability, and sensory experience.
 | Sodium Chloride | 氯化钠 | Viscosity modifier |
 | Acrylates Copolymer | 丙烯酸(酯)类共聚物 | Suspension stabilizer |
 | Polyquaternium-10 | 聚季铵盐-10 | Cationic stabilizer |
+| Cyclodextrin | 环糊精 | Encapsulation/stabilization cage for actives |
+| Arginine | 精氨酸 | pH adjuster (carbomer neutralizer) |
+| Tromethamine | 氨丁三醇 | pH adjuster (Tris buffer) |
 
 ---
 
@@ -336,6 +363,8 @@ Ingredients that modify product feel, spreadability, and sensory experience.
 | Polyquaternium-10 | 聚季铵盐-10 | Film former (hair conditioning) |
 | Shellac | 紫胶 | Natural film former |
 | Pullulan | 普鲁兰多糖 | Natural film former |
+| PVM/MA Copolymer | PVM/MA 共聚物 | Film former (water-resistant, moisture-locking) |
+| Glyceryl Acrylate/Acrylic Acid Copolymer | 甘油丙烯酸酯/丙烯酸共聚物 | Film former (moisture-binding hydrogel) |
 
 ---
 
@@ -403,6 +432,20 @@ Plant-derived ingredients with limited evidence for efficacy at cosmetic concent
 | Royal Jelly Extract | 蜂王浆提取物 | E |
 | Propolis Extract | 蜂胶提取物 | C |
 | Honey Extract | 蜂蜜提取物 | C |
+| Momordica Charantia Fruit Extract | 苦瓜果提取物 | E |
+| Sambucus Nigra Flower Extract | 接骨木花提取物 | E |
+| Leontopodium Alpinum Extract | 雪绒花提取物 | E |
+| Ficus Carica Fruit Extract | 无花果提取物 | E |
+| Punica Granatum Pericarp Extract | 石榴果皮提取物 | E |
+| Backhousia Citriodora Leaf Extract | 柠檬巴毫叶提取物 | E |
+| Schisandra Sphenanthera Extract | 南五味子提取物 | E |
+| Theobroma Cacao Extract | 可可提取物 | E |
+| Taraxacum Officinale Root Extract | 欧蒲公英根提取物 | E |
+| Viola Yedoensis Extract | 紫花地丁提取物 | E |
+| Paeonia Albiflora Root Extract | 芍药(白花)根提取物 | C |
+| Malva Sylvestris Flower Extract | 欧锦葵花提取物 | E |
+| Lonicera Japonica Flower Extract | 忍冬花提取物 | E |
+| Coix Lacryma-Jobi Ma-Yuen Seed Oil | 川谷籽油 | C |
 
 ---
 
@@ -465,6 +508,7 @@ Ingredients with documented safety concerns — irritation, sensitization, or sy
 | Cinnamon/Cassia Oils | 肉桂油 | Irritant, sensitizer | Medium |
 | Peppermint Oil | 薄荷油 | Irritant (mucous membranes) | Medium |
 | Eucalyptus Oil | 桉叶油 | Irritant | Medium |
+| Hypericum Perforatum (St. John's Wort) Extract | 贯叶连翘提取物 | Phototoxic (hypericin) | High |
 | Benzophenone-3 (Oxybenzone) | 二苯酮-3 | Endocrine disruption (disputed), coral bleaching | Medium-High |
 | Octinoxate (Ethylhexyl Methoxycinnamate) | 甲氧基肉桂酸乙基己酯 | Coral bleaching (environmental bans) | Medium |
 | Homosalate | 胡莫柳酯 | Endocrine disruption (disputed) | Medium |

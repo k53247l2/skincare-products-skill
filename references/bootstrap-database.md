@@ -238,7 +238,7 @@ Sensitive skin: Trehalose + betaine — cell-protective, non-irritating
 
 ---
 
-## 5. Risk Ingredient Database (30 entries)
+## 5. Risk Ingredient Database (31 entries)
 
 Focused on ingredients where safety evaluation directly impacts scoring.
 
@@ -274,6 +274,7 @@ Focused on ingredients where safety evaluation directly impacts scoring.
 | 28 | Kojic Acid (high %, unstable) | Sensitizer | Medium | Sensitization with prolonged use; unstable → degradation products may be more sensitizing | Restricted concentration (1% recommended max in leave-on) | Allergic contact dermatitis |
 | 29 | Coal Tar | Carcinogen; photosensitizer | High | IARC Group 1 carcinogen; PAH content; photosensitizing | Rx or OTC depending on concentration and region | Skin cancer risk (occupational); photosensitivity |
 | 30 | Nanoparticle TiO₂ (uncoated, spray) | Inhalation risk | Medium | IARC Group 2B when inhaled (occupational); safe on intact skin | EU: not allowed in sprayable formulations; coating required | No skin harm; inhalation concern only |
+| 31 | Hypericum Perforatum (St. John's Wort) Extract | Phototoxic | High | Contains hypericin — potent phototoxin activated by UVA/visible light. Causes phototoxic dermatitis on sun-exposed skin; severity proportional to concentration. Also induces CYP3A4 (systemic drug interactions when ingested, not topical concern). | Not banned but strongly advised against in leave-on products without explicit sun-avoidance labeling | Phototoxic burns; post-inflammatory hyperpigmentation in acne-prone skin |
 
 ---
 
@@ -295,6 +296,7 @@ Glycerin                 -           -            -            ✅        -
 
 ## Version & Expansion Notes
 
+- v1.1 — 31 risk entries, added Hypericum Perforatum phototoxicity
 - v1.0 bootstrap — 140 entries across 5 databases
 - Next expansion: Emollient database, Silicone database, Plant extract database
 - All entries follow M21 schema
